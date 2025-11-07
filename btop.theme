@@ -1,0 +1,37 @@
+# Janus theme - btop system monitor
+# Midnight glass with violet and cyan accents
+
+# Main background and foreground colors
+theme[main_bg]="#0A0E1A"
+theme[main_fg]="#C5C9D8"
+theme[title]="#E5E9F8"
+
+# Highlight colors
+theme[hi_fg]="#9B8BFF"
+theme[selected_bg]="#1A1E2E"
+theme[selected_fg]="#9B8BFF"
+
+# Graph colors
+theme[cpu_box]="#9B8BFF"
+theme[mem_box]="#00D9FF"
+theme[net_box]="#D69BFF"
+theme[proc_box]="#00D9A0"
+
+# Graph gradient colors
+theme[gradient_color_1]="#9B8BFF"
+theme[gradient_color_2]="#00D9FF"
+theme[gradient_color_3]="#00D9A0"
+theme[gradient_color_4]="#FFD494"
+
+# Process colors
+theme[proc_misc]="#C5C9D8"
+theme[proc_cpu]="#9B8BFF"
+theme[proc_mem]="#00D9FF"
+theme[proc_start]="#00D9A0"
+
+# Inactive/divider colors
+theme[inactive_fg]="#3A3E4E"
+theme[div_line]="#3A3E4E"
+
+# Graph mode
+theme[graph_text]="#C5C9D8"

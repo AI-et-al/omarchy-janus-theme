@@ -1,0 +1,34 @@
+# Janus theme - Alacritty terminal configuration
+# Midnight glass with violet and cyan accents
+
+[colors]
+[colors.primary]
+background = '#0A0E1A'
+foreground = '#C5C9D8'
+
+[colors.normal]
+black   = "#1A1E2E"
+red     = "#FF6B8A"
+green   = "#00D9A0"
+yellow  = "#FFD494"
+blue    = "#7B8BFF"
+magenta = "#D69BFF"
+cyan    = "#00D9FF"
+white   = "#C5C9D8"
+
+[colors.bright]
+black   = "#3A3E4E"
+red     = "#FF8BA9"
+green   = "#4AFFCD"
+yellow  = "#FFE4B4"
+blue    = "#9B8BFF"
+magenta = "#E6B3FF"
+cyan    = "#4DFFFF"
+white   = "#E5E9F8"
+
+[colors.cursor]
+text   = "#0A0E1A"
+cursor = "#9B8BFF"
+
+[window]
+opacity = 0.90

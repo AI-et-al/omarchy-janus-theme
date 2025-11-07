@@ -1,0 +1,7 @@
+/* Janus theme - Waybar styling */
+/* Midnight glass with violet and cyan accents */
+
+@define-color foreground #C5C9D8;
+@define-color background #0A0E1A;
+@define-color accent-violet #9B8BFF;
+@define-color accent-cyan #00D9FF;
