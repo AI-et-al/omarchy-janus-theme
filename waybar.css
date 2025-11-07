@@ -1,0 +1,82 @@
+/* omarchy-janus-theme - Waybar styling (style.css) */
+
+/* Palette */
+:root {
+  --bg: #0f1113;
+  --panel: #0d0f11;
+  --muted: #5a6066;
+  --text: #d7dbe0;
+  --accent: #7ab6ff;
+  --accent-2: #9ad29f;
+  --warning: #ffb86b;
+}
+
+/* Bar */
+* {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: var(--text);
+}
+
+#waybar {
+  background: var(--panel);
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  height: 30px;
+  padding: 4px 8px;
+}
+
+/* Modules */
+.module {
+  padding: 0 8px;
+  margin: 0 4px;
+  display: flex;
+  align-items: center;
+  color: var(--text);
+}
+
+.module .icon {
+  margin-right: 6px;
+  color: var(--accent);
+}
+
+/* Workspace block */
+.mode-workspaces button {
+  background: transparent;
+  border-radius: 6px;
+  padding: 3px 8px;
+  color: var(--muted);
+}
+.mode-workspaces button.active {
+  background: rgba(122,182,255,0.09);
+  color: var(--accent);
+  box-shadow: 0 0 10px rgba(122,182,255,0.035);
+}
+
+/* Clock */
+.mode-clock {
+  font-weight: 500;
+  color: var(--muted);
+}
+
+/* Battery */
+.module.battery {
+  color: var(--muted);
+}
+.module.battery.low {
+  color: var(--warning);
+}
+
+/* Notifications and hover */
+.module:hover {
+  background: rgba(255,255,255,0.02);
+  color: var(--text);
+}
+
+/* Tray */
+#tray {
+  display: flex;
+  gap: 6px;
+}
+#tray .tray-item {
+  padding: 4px;
+  border-radius: 6px;
+}

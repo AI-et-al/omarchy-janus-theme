@@ -1,0 +1,43 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.background": "#0f1113",
+    "editor.foreground": "#d7dbe0",
+    "activityBar.background": "#0d0f11",
+    "sideBar.background": "#0f1113",
+    "statusBar.background": "#0b0c0e",
+    "titleBar.activeBackground": "#0d0f11",
+    "titleBar.activeForeground": "#d7dbe0",
+    "editorCursor.foreground": "#7ab6ff",
+    "editorLineNumber.foreground": "#5a6066",
+    "editor.selectionBackground": "#264f7a",
+    "terminal.background": "#0f1113",
+    "terminal.foreground": "#d7dbe0"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": { "foreground": "#6b7177", "fontStyle": "italic" }
+      },
+      {
+        "scope": ["string", "constant.character.escape"],
+        "settings": { "foreground": "#9ad29f" }
+      },
+      {
+        "scope": ["keyword", "storage"],
+        "settings": { "foreground": "#ffb86b" }
+      },
+      {
+        "scope": ["variable", "variable.parameter"],
+        "settings": { "foreground": "#d7dbe0" }
+      },
+      {
+        "scope": ["constant.numeric"],
+        "settings": { "foreground": "#ff9cac" }
+      }
+    ]
+  },
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-icons",
+  "window.titleBarStyle": "custom"
+}
