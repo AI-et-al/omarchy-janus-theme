@@ -21,3 +21,34 @@ dev superego quietly coordinating the swarm.
 
 ```bash
 omarchy-theme-install https://github.com/AI-et-al/omarchy-janus-theme.git
+```
+
+## Features
+
+- Dark translucent backgrounds with 90% opacity
+- Violet (#9B8BFF) and cyan (#00D9FF) accent colors
+- Blur effects for modern aesthetics
+- Support for multiple applications:
+  - Terminal emulators (Alacritty, Kitty, Ghostty)
+  - Window manager (Hyprland with lock screen)
+  - Status bar (Waybar)
+  - Notifications (Mako)
+  - Application launcher (Walker)
+  - System monitor (btop)
+  - Text editor (Neovim)
+  - And more...
+
+## Color Palette
+
+- Background: `#0A0E1A` (midnight glass)
+- Foreground: `#C5C9D8` (soft gray)
+- Accent Violet: `#9B8BFF`
+- Accent Cyan: `#00D9FF`
+- Green: `#00D9A0`
+- Red: `#FF6B8A`
+- Yellow: `#FFD494`
+- Magenta: `#D69BFF`
+
+## License
+
+MIT License - See [LICENSE](LICENSE) file for details.
