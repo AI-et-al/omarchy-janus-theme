@@ -1,0 +1,23 @@
+* {
+    font-family: "SFMono Nerd Font", "SF Pro Text", system-ui, sans-serif;
+    font-size: 12px;
+  }
+  
+  window#waybar {
+    background: rgba(2, 4, 10, 0.92);
+    color: #E5E5F5;
+    border-bottom: 1px solid rgba(139, 92, 246, 0.35);
+  }
+  
+  #workspaces button.focused,
+  #window,
+  #clock {
+    background: rgba(17, 24, 39, 0.98);
+    color: #E5E5F5;
+  }
+  
+  #battery.critical,
+  #network.disconnected {
+    color: #F97373;
+  }
+  

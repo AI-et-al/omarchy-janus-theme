@@ -1,0 +1,64 @@
+
+---
+
+## 3. `palette.yml`
+
+```yaml
+name: Janus
+version: 1.0.0
+
+core:
+  primary_bg:    "#02040A"
+  secondary_bg:  "#050816"
+  tertiary_bg:   "#0B1020"
+  selection_bg:  "#111827"
+
+text:
+  primary:   "#E5E5F5"
+  secondary: "#9CA3AF"
+  dim:       "#6B7280"
+
+accents:
+  primary:   "#8B5CF6"
+  secondary: "#22D3EE"
+  tertiary:  "#38BDF8"
+  success:   "#22C55E"
+  warning:   "#FBBF24"
+  error:     "#F97373"
+  info:      "#38BDF8"
+
+terminal:
+  background: "#02040A"
+  foreground: "#E5E5F5"
+  cursor:     "#8B5CF6"
+  selection:  "#111827"
+
+  ansi_normal:
+    - "#02040A" # black
+    - "#F97373" # red
+    - "#22C55E" # green
+    - "#FBBF24" # yellow
+    - "#38BDF8" # blue/cyan-ish
+    - "#8B5CF6" # magenta/violet
+    - "#22D3EE" # cyan
+    - "#E5E5F5" # white
+
+  ansi_bright:
+    - "#111827"
+    - "#FCA5A5"
+    - "#4ADE80"
+    - "#FACC15"
+    - "#60A5FA"
+    - "#A855F7"
+    - "#67E8F9"
+    - "#F9FAFB"
+
+  ansi_dim:
+    - "#02040A"
+    - "#7F1D1D"
+    - "#14532D"
+    - "#78350F"
+    - "#1D3557"
+    - "#4C1D95"
+    - "#164E63"
+    - "#6B7280"

@@ -1,0 +1,18 @@
+{
+    "name": "Janus",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#02040A",
+      "editor.foreground": "#E5E5F5",
+      "editorLineNumber.foreground": "#4B5563",
+      "editorLineNumber.activeForeground": "#9CA3AF",
+      "editorCursor.foreground": "#8B5CF6",
+      "editor.selectionBackground": "#111827",
+      "editor.inactiveSelectionBackground": "#11182788",
+      "sideBar.background": "#050816",
+      "statusBar.background": "#02040A",
+      "titleBar.activeBackground": "#02040A",
+      "titleBar.activeForeground": "#9CA3AF"
+    }
+  }
+  

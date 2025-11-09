@@ -1,0 +1,37 @@
+name: janus
+display_name: Janus
+version: 1.0.0
+author: "AI-et-al"
+license: "MIT"
+description: >
+  A calm, translucent midnight theme for Omarchy: violet intent, cyan clarity,
+  tuned for deep coding and multi-AI orchestration.
+palette: ./palette.yml
+backgrounds:
+  - ./backgrounds/janus-1.png
+terminal:
+  kitty: ./kitty.conf
+  ghostty: ./ghostty.conf
+  alacritty: ./alacritty.toml
+  hyprland: ./hyprland.conf
+bar:
+  waybar: ./waybar.css
+launcher:
+  walker: ./walker.css
+notifications:
+  mako: ./mako.ini
+lock:
+  hyprlock: ./hyprlock.conf
+editor:
+  neovim: ./neovim.lua
+monitoring:
+  btop: ./btop.theme
+browser:
+  chromium: ./chromium.theme
+icons:
+  theme: ./icons.theme
+osd:
+  swayosd: ./swayosd.css
+misc:
+  vscode: ./vscode.json
+  eza: ./eza.yml

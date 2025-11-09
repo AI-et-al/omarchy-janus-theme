@@ -1,0 +1,16 @@
+window {
+    background-color: rgba(2, 4, 10, 0.96);
+    color: #E5E5F5;
+  }
+  
+  entry {
+    background: #02040A;
+    border: 1px solid rgba(139, 92, 246, 0.5);
+    color: #E5E5F5;
+  }
+  
+  row:selected {
+    background: #111827;
+    color: #22D3EE;
+  }
+  
